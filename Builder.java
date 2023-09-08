@@ -24,3 +24,16 @@ public enum Type {
 		return notation;
 	}
 }
+
+public enum Wood {
+	WOOD_01(), WOOD_02(), WOOD_03;
+
+	private String notation;
+	private Wood(String notation) {
+		this.notation = notation;
+	}
+
+	public String toString() {
+		return notation;
+	}
+}
