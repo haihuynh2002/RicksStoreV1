@@ -26,7 +26,7 @@ public enum Type {
 }
 
 public enum Wood {
-	WOOD_01(), WOOD_02(), WOOD_03;
+	WOOD_01("Wood 01"), WOOD_02("Wood 02"), WOOD_03("Wood 03");
 
 	private String notation;
 	private Wood(String notation) {
